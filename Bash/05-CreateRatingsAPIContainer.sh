@@ -1,5 +1,5 @@
-# make sure we are in the root of our storage
-cd ~
+# make sure we are in the root of our Project
+cd ~/K8SWorkshop
 
 # Clone from the Microsoft public repository part of our application
 git clone https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-api.git
@@ -13,4 +13,3 @@ az acr build \
     --registry $ACR_NAME \
     --image ratings-api:v1 .
 
-cd ..

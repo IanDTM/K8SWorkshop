@@ -1,5 +1,5 @@
-# make sure we are in the root of our storage
-cd ~
+# make sure we are in the root of our project
+cd ~/K8SWorkshop
 
 # clone The Microsoft example web app code.
 git clone https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-web.git
