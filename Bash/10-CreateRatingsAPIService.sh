@@ -8,7 +8,7 @@ kubectl get pods \
     --namespace ratingsapp \
     -l app=ratings-api -w
 
-# Exit the abovbe and check to see if the deployment is complete
+# Exit the above using <contrl>C and check to see if the deployment is complete
 kubectl get deployment ratings-api --namespace ratingsapp
 
 # Create the Ratings API Service

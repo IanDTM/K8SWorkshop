@@ -12,3 +12,6 @@ AKS_CLUSTER_NAME=aksworkshop-<My Unique Name>
 
 #define the Container Registry Name - must be unique
 ACR_NAME=acr<My Unquie Name>
+
+# Define a Unique workspace name
+WORKSPACE=aksworkshop-workspace-<My Unique Name>
