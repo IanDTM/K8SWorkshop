@@ -5,3 +5,5 @@ az acr create \
     --location $REGION_NAME \
     --name $ACR_NAME \
     --sku Standard
+
+# Login to Azure Portal and review the Contain registry

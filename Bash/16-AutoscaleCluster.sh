@@ -1,4 +1,4 @@
-# Replay the modified ratings-api-deployment.yaml with modifications
+# Replay the modified ratings-api-deployment.yaml with modifications from ratings-api-deployment.yaml
 kubectl apply \
     --namespace ratingsapp \
     -f ratings-api-deployment.yaml

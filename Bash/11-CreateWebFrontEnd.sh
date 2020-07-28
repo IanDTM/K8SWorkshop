@@ -1,4 +1,6 @@
-# Edit the ratings-web-deployment.yaml file to set the name of your container registry.
+#
+# Important EDIT the ratings-web-deployment
+#
 
 # Deploy the Web Containers to the K8S cluster
 kubectl apply \
@@ -24,4 +26,5 @@ kubectl get service ratings-web --namespace ratingsapp -w
 #
 # You can now use the External IP address to access the Application.
 #
-# Application is now up and running.
+# Application is now up and running. Wait for Public IP to be bound and accepting traffic
+

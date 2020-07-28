@@ -24,4 +24,6 @@ az aks enable-addons \
 kubectl apply \
     -f logreader-rbac.yaml
 
+# Will need to wait a while for the logging to catch up and update
+#
 # View Live Log Data.

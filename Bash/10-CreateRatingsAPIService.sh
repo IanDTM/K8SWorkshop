@@ -1,3 +1,10 @@
+# Change directory to where all our source files.
+cd ~/K8SWorkshop/Bash
+
+#
+# Important EDIT the ratings-api-deployment.yaml
+#
+
 # Apply our YAML file to create the Ratings API Containers
 kubectl apply \
     --namespace ratingsapp \

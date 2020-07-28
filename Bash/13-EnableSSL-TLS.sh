@@ -18,11 +18,16 @@ helm install cert-manager \
 kubectl get pods --namespace cert-manager
 
 # Deploy a Cluster Issuer resource for "Let's Encrypt"
+#
+# Important Edit the cluster-issuer.yaml to enter your email address
+#
 kubectl apply \
     --namespace ratingsapp \
     -f cluster-issuer.yaml
 
-# Edit the ratings-web-ingress-ssl.yaml file and enter the External IP Adress
+#
+# Important Edit the ratings-web-ingress-ssl.yaml file and enter the External IP Adress
+#
 # Enable SSL
 kubectl apply \
     --namespace ratingsapp \

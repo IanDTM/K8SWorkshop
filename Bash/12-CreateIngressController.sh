@@ -24,13 +24,18 @@ kubectl delete service \
     --namespace ratingsapp \
     ratings-web
 
+# 
+# Important Edit the ratings-web-service.yaml
+# Change LoadBalancer   to ClusterIP
 # Apply the change
 kubectl apply \
     --namespace ratingsapp \
     -f ratings-web-service.yaml
 
 # Need to create an Ingress Controller Resource which defines 
-# Edit the ratings-web-ingress.yaml with External IP Address
+# 
+# Important Edit the ratings-web-ingress.yaml with External IP Address
+#
 kubectl apply \
     --namespace ratingsapp \
     -f ratings-web-ingress.yaml
