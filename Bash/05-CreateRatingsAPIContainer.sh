@@ -7,6 +7,9 @@ git clone https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-api.git
 # change directory to our new project directory
 cd mslearn-aks-workshop-ratings-api
 
+# Look at the dockerfile
+cat Dockerfile
+
 # Build the code and create the Docker container image 
 az acr build \
     --resource-group $RESOURCE_GROUP \
