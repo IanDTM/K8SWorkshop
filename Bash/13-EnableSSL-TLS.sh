@@ -1,3 +1,9 @@
+# Skip this section - no SSL testing
+
+
+
+
+
 # Create a Cert Manager
 kubectl create namespace cert-manager
 
